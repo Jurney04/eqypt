@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, createHashRouter } from "react-router";
 import App from "./pages/App";
 import { Header } from "./components/Header";
 import { DagelijksLeven } from "./pages/DagelijksLeven";
@@ -7,7 +7,7 @@ import { Inhoud } from "./pages/Inhoud";
 import { Oefening } from "./pages/Oefening";
 import { Goden, Mummificatie } from "./components";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
 	{
 		path: "/",
 		element: <App />,
