@@ -29,7 +29,7 @@
 	margin-top: 0.5rem;
 }
 .sidebar-left {
-	background-image: url(/public/sideline.svg);
+	background-image: url(/sideline.svg);
 	background-size: contain;
 	background-repeat: repeat-y;
 	height: 100%;
@@ -40,7 +40,7 @@
 	z-index: -5;
 }
 .sidebar-right {
-	background-image: url(/public/sideline2.svg);
+	background-image: url(/sideline2.svg);
 	background-size: contain;
 	background-repeat: repeat-y;
 	height: 100%;
