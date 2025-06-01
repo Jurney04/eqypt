@@ -14,7 +14,7 @@ export const Oefening = () => {
 					<h2>Werkblad</h2>
 					<div>
 						<p>Hier vind je al het eerste werkblad dat je kan printen</p>
-						<a href="/oefening_werkblad.pdf" className="non-link" download="oefening_werkblad">
+						<a href="./oefening_werkblad.pdf" className="non-link" download="oefening_werkblad">
 							Download werkblad
 						</a>
 					</div>
@@ -23,7 +23,7 @@ export const Oefening = () => {
 					<h2>Werkbundel</h2>
 					<div>
 						<p>Hier vind je al een werkbundel dat je kan printen</p>
-						<a href="/werkbundel_Egypte.pdf" className="non-link" download="werkbundel_Egypte">
+						<a href="./werkbundel_Egypte.pdf" className="non-link" download="werkbundel_Egypte">
 							Download werkblad
 						</a>
 					</div>
