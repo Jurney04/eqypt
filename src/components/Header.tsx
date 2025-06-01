@@ -27,7 +27,7 @@ export const Header = () => {
 			</Link>
 			{/* referentiekader, doelstellingen */}
 			<a href="https://www.funnygames.nl/spel/ancient_egypt_spot_the_differences.html" target="_blank" className="">
-				<img src="/eye_of_rah.svg" className="logo" alt="" />
+				<img src="./eye_of_rah.svg" className="logo" alt="" />
 			</a>
 
 			<div className="sidebar-left"></div>

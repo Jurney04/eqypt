@@ -52,7 +52,10 @@ section {
 	background: #fff8dc;
 	padding: 1.5rem 2rem;
 	border-radius: 8px;
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 section h2 {
 	color: #7a5c1e;
@@ -97,4 +100,55 @@ footer {
 	margin-left: -12.5%;
 	width: 100vw !important;
 	z-index: 0;
+}
+.mummi {
+	display: flex;
+}
+.mummi ul {
+	width: 60%;
+}
+.mummi p {
+	width: 80%;
+}
+.mummi img {
+	width: 30%;
+}
+.mtp-imgs {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+}
+.mtp-imgs img {
+	width: 60%;
+}
+.mtp-imgs :first-child {
+	margin-bottom: 1.5vh;
+}
+.smol {
+	height: 25vh;
+}
+.big {
+	width: 100%;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.mtp-imgs2 {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+}
+.mtp-imgs2 img {
+	width: 100%;
+}
+.mtp-imgs2 :first-child {
+	margin-bottom: 1.5vh;
+}
+.tijdslijn{
+	width: 100%;
 }

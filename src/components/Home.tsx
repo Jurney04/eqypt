@@ -8,11 +8,20 @@ export const Home = () => {
 			<main>
 				<section>
 					<h2>Welkom!</h2>
-					<p>
-						Het Oude Egypte is een van de oudste en meest bijzondere beschavingen ter wereld. Op deze website ontdek je hoe mensen leefden, welke goden ze aanbaden, en hoe ze prachtige kunst maakten. Je leert over hun spannende verhalen en hun
-						bijzondere gewoontes.
-					</p>
-					<p>We verkennen samen verschillende thema's die jou alles vertellen over dit mysterieuze land aan de Nijl.</p>
+					<div className="mummi">
+						<div>
+							<p>
+								Het Oude Egypte is een van de oudste en meest bijzondere beschavingen ter wereld. Op deze website ontdek je hoe mensen leefden, welke goden ze aanbaden, en hoe ze prachtige kunst maakten. Je leert over hun spannende verhalen en hun
+								bijzondere gewoontes.
+							</p>
+							<p>We verkennen samen verschillende thema's die jou alles vertellen over dit mysterieuze land aan de Nijl.</p>
+						</div>
+						<img src="./piramids_in_oasis.png" alt="" />
+					</div>
+				</section>
+				<section>
+					<h2>Tijdslijn</h2>
+					<img className="tijdslijn" src="./tijdslijn.png" alt="" />
 				</section>
 				<section>
 					<h2>Welke thema's ga je ontdekken?</h2>
