@@ -18,3 +18,4 @@ export const Root = () => (
 		<RouterProvider router={router} />
 	</QueryClientProvider>
 );
+

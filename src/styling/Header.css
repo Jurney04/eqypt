@@ -1,13 +1,15 @@
 .header {
-	width: calc(100vw - 25%);
+	width: calc(100vw - 25%) !important;
 	height: 2rem;
 	justify-content: space-between;
 	display: flex;
 	padding: 1rem 12.5%;
-	background-color: #c9a779;
+	background: #c9a779;
+	background: linear-gradient(160deg, rgba(201, 167, 121, 1) 11%, rgb(199, 145, 64) 81%);
 	align-items: center;
 	margin-left: -12.5%;
 	z-index: 5;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.707);
 }
 .header a {
 	text-decoration: none;
@@ -40,7 +42,7 @@
 	z-index: -5;
 }
 .sidebar-right {
-	background-image: url(/sideline2.svg);
+	background-image: url(/sideline.svg);
 	background-size: contain;
 	background-repeat: repeat-y;
 	height: 100%;
